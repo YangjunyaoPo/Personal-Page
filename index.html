@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal homepage" />
+  <title>Your Name · Homepage</title>
+
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+
+<body>
+    <canvas id="fx" aria-hidden="true"></canvas>
+
+  <div class="wrap">
+    <!-- NAV PLACEHOLDER (replace later with your navbar) -->
+    <header class="topbar fade-in">
+      <div class="brand">
+        <span class="dot" aria-hidden="true"></span>
+        <span>YourName.dev</span>
+      </div>
+      <div class="nav-placeholder">
+        Navbar placeholder · you’ll replace this later
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="card fade-in delay-1">
+        <p class="eyebrow">👋 Hello, I'm</p>
+        <h1 class="h-title">Your Name</h1>
+        <p class="h-sub">
+          A simple personal homepage deployed on Vercel.
+          This is a clean starter template you can expand later.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="#" data-action="resume">View Resume</a>
+          <a class="btn" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn" href="mailto:your@email.com">Email</a>
+        </div>
+
+        <div class="chips" aria-label="highlights">
+          <span class="chip">Software Engineering</span>
+          <span class="chip">Web / UX</span>
+          <span class="chip">AI / ML</span>
+          <span class="chip">Open to Opportunities</span>
+        </div>
+      </div>
+
+      <aside class="card profile fade-in delay-2">
+        <div class="profile-head">
+          <div class="avatar" aria-hidden="true"></div>
+          <div>
+            <h3 class="profile-title">Quick Info</h3>
+            <p class="profile-sub">Keep it short and real.</p>
+          </div>
+        </div>
+
+        <div class="kv">
+          <div class="row"><span class="k">Location</span><span class="v">Arlington, VA</span></div>
+          <div class="row"><span class="k">Focus</span><span class="v">Full-Stack / AI</span></div>
+          <div class="row"><span class="k">Status</span><span class="v">Building</span></div>
+        </div>
+
+        <p class="profile-note">
+          Tip: later replace this with a real photo, social links, or a mini timeline.
+        </p>
+      </aside>
+    </section>
+
+    <!-- MAIN SECTIONS -->
+    <section class="grid">
+      <div class="card col-7 fade-in delay-2">
+        <div class="sec-title">
+          <h2>Featured Projects</h2>
+          <span>replace with your real repos</span>
+        </div>
+
+        <div class="list">
+          <div class="item">
+            <p class="title">Project One</p>
+            <p class="desc">One sentence: what it does, what tech you used, and why it matters.</p>
+          </div>
+          <div class="item">
+            <p class="title">Project Two</p>
+            <p class="desc">Keep it concise. Add links later (GitHub, demo, write-up).</p>
+          </div>
+          <div class="item">
+            <p class="title">Project Three</p>
+            <p class="desc">Responsive layout that looks good on mobile.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card col-5 fade-in delay-3">
+        <div class="sec-title">
+          <h2>About</h2>
+          <span>short bio</span>
+        </div>
+        <p class="about-text">
+          Write a short, honest intro. Example: “I’m a graduate student in software engineering.
+          I enjoy building reliable web apps and experimenting with AI tools.”
+        </p>
+
+        <div class="spacer"></div>
+
+        <div class="sec-title">
+          <h2>Now</h2>
+          <span>current focus</span>
+        </div>
+        <div class="list">
+          <div class="item">
+            <p class="title">Learning</p>
+            <p class="desc">Vercel + GitHub deployment, polishing UI details.</p>
+          </div>
+          <div class="item">
+            <p class="title">Next</p>
+            <p class="desc">Add navbar, projects page, and a simple blog section.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer fade-in delay-3">
+      © <span id="year"></span> Your Name · Built with HTML/CSS · Deployed on Vercel
+    </footer>
+  </div>
+
+  <script src="assets/main.js" defer></script>
+  <script src="assets/cursor-network.js" defer></script>
+
+</body>
+</html>
